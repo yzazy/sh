@@ -11,4 +11,5 @@ sudo service docker start
 
 sudo chown kynuxyz /var/run/docker.sock
 
+oc cluster up
 oc cluster up --public-hostname=uop.kynu.xyz --routing-suffix='apps.kynu.xyz'  --use-existing-config=true
